@@ -1,167 +1,21 @@
-## Аналитик данных — Яндекс.Практикум   
-## Data analyst - Practicum by Yandex  
-_________________
-  
+В репозитории собраны проекты, выполненные в ходе обучения в Яндекс.Практикуме (курс "Специалист по Data Science").
 
-## Описание проектов / Description of projects    
+Проекты 1-5 при постановке задач имели подробные пошаговые инструкции (приведены в проектах). В последующих проектах задачи сформулированы кратко. Проекты 4, 8, 15 являются сборными (расчитаны на использование наыков и инструментов предыдущих курсов).
 
-### 1. Исследование музыки больших городов | **Основы Python и анализа данных**     
-<ins>Используемые библиотеки:</ins> pandas  
-
-<b>Задача:</b> Исследовала предпочтения и поведение пользователей музыкального сервиса в разных локациях: поиск соответствий и различий в зависимости от дня недели, жанра и интенсивности прослушивания.  
-
-### 1. Exploring the Music of Big Cities | **Python basics**   
-<ins>Libraries:</ins> pandas    
-
-<b>Problem:</b> Researched the preferences and behavior of music service users in different locations: finding matches and differences depending on the day of the week, genre and listening intensity.   
-
----
-
-### 2. Исследование надёжности заёмщиков | **Предобработка данных**   
-<ins>Используемые библиотеки:</ins> pandas, numpy, matplotlib, seaborn  
-<ins>Также:</ins> лемматизация, категоризация данных    
-
-<b>Задача:</b> Провела исследование для кредитного отдела банка, влияет ли семейное положение, количество детей, уровень дохода и образования клиента на факт погашения кредита в срок.  
-
-### 2. Research of borrowers' reliability | **Data preprocessing**   
-<ins>Libraries:</ins> pandas, numpy, matplotlib, seaborn    
-<ins>Also:</ins> lemmatization, data categorization   
-
-<b>Problem:</b> Carried out a research for the loan department of the bank, does the marital status, number of children, income level and education of the client affect the fact of repaying the loan on time.   
-
----
-
-### 3. Исследование объявлений о продаже квартир | **Исследовательский анализ данных**   
-<ins>Используемые библиотеки:</ins> pandas, numpy, matplotlib, seaborn, datetime, pprint    
-<ins>Также:</ins> диаграммы размаха  
-
-<b>Задача:</b> Определяла рыночную стоимость объектов недвижимости в Санкт-Петербурге и соседних населённых пунктах за несколько лет для сервиса Яндекс.Недвижимость. Устанавливала параметры, которые позволят построить автоматизированную систему: она отследит аномалии и мошенническую деятельность.   
-
-### 3. Research of advertisements for the sale of apartments | **Exploratory data analysis**   
-<ins>Libraries:</ins> pandas, numpy, matplotlib, seaborn, datetime, pprint   
-<ins>Also:</ins> plots    
-
-<b>Problem:</b> Determined the market value of real estate in St. Petersburg and neighboring settlements for several years for the Yandex.Real Estate service. I set the parameters that would allow the construction of an automated system: it would track anomalies and fraudulent activity.  
-
----
-
-### 4. Определение перспективного тарифа для телеком компании | **Статистический анализ данных**   
-<ins>Используемые библиотеки:</ins> pandas, numpy, math, scipy, functools, matplotlib, seaborn  
-<ins>Также:</ins> проверка статистических гипотез  
-
-<b>Задача:</b> Провела предварительный анализ двух существующих тарифов на небольшой выборке клиентов (500 человек), чтобы определить какой из них приносит больше прибыли, провела анализ поведения клиентов.  
-
-### 4. Determination of a prospective tariff for a telecom company | **Statistical data analysis**   
-<ins>Libraries:</ins> pandas, numpy, math, scipy, functools, matplotlib, seaborn   
-<ins>Also:</ins> statistical hypothesis testing   
-
-<b>Problem:</b> Conducted a preliminary analysis of two existing tariffs on a small sample of customers (500 people) to determine which one brings more profit, conducted an analysis of customer behavior.    
-
----
-
-### 5. Закономерности, определяющие успешность компьютерной игры | **Сборный проект 1**  
-<ins>Используемые библиотеки (libraries):</ins> pandas, numpy, math, scipy, functools, datetime, matplotlib, seaborn
-
-<b>Задача:</b> Выявила определяющие успешность игры закономерности. Это позволит сделать ставку на потенциально популярный продукт и спланировать рекламные кампании. Провела исследование популярности различных игровых платформ и игр за всю историю существования индустрии, в том числе по различным регионам, чтобы выявить особенности предпочтения игроков в разных странах.  
-
-### 5. Patterns that determine the success of a computer game | **Collecting project 1**   
-<ins>Libraries:</ins> pandas, numpy, math, scipy, functools, datetime, matplotlib, seaborn   
-
-<b>Problem:</b> Revealed the patterns that determine the success of the game. This will allow you to bid on a potentially popular product and plan advertising campaigns. Conducted a study of the popularity of various gaming platforms and games throughout the history of the industry, including by different regions, in order to identify the peculiarities of player preferences in different countries.  
-
----
-
-### 6. Аналитика в авиакомпании | **Сбор и хранение данных**   
-<ins>Используемые библиотеки:</ins> pandas, numpy, functools, matplotlib, seaborn, requests, json, BeautifulSoup   
-<ins>Также:</ins> SQL, парсинг данных      
-
-<b>Задача:</b> Изучила базы данных и анализ спроса пассажиров на рейсы в города, где проходят крупнейшие фестивали. Определила предпочтения пользователей, покупающих билеты на те или иные направления.  
-
-### 6. Airline Analytics | **Data collection and storage**   
-<ins>Libraries:</ins> pandas, numpy, functools, matplotlib, seaborn, requests, json, BeautifulSoup   
-<ins>Also:</ins> SQL, data parsing   
-
-<b>Problem:</b> Analyzed databases and analysis of passenger demand for flights to cities where the largest festivals take place. Determined the preferences of users who buy tickets for certain destinations.   
-
----
-
-### 7. Аналитика в Яндекс.Афише | **Анализ бизнес-показателей**    
-<ins>Используемые библиотеки:</ins> pandas, numpy, functools, datetime, matplotlib, seaborn  
-<ins>Также:</ins> рассчет метрик  
-
-<b>Задача:</b> Провела исследование и анализ данных Яндекс.Афиши в целях оптимизировать маркетинговые затраты. В распоряжении есть данные от Яндекс.Афиши с июня 2017 по конец мая 2018 года: лог сервера с данными о посещениях сайта Яндекс.Афиши, выгрузка всех заказов за этот период, статистика рекламных расходов. Проанализировала, как люди пользуются продуктом, когда они начинают покупать, сколько денег приносит каждый клиент, когда клиент окупается.  
-
-### 7. Analytics in Yandex.Shows | **Business analysis**  
-<ins>Libraries:</ins> pandas, numpy, functools, datetime, matplotlib, seaborn    
-<ins>Also:</ins> metrics   
-
-<b>Problem:</b> Conducted research and analysis of Yandex.Shows data in order to optimize marketing costs. We have data from Yandex.Shows from June 2017 to the end of May 2018: a server log with data on visits to the Yandex.Shows website, unloading of all orders for this period, statistics on advertising costs. I analyzed how people use the product, when they start buying, how much money each client brings, when the client pays off.   
-
----
-
-### 8. Аналитика в интернет-магазине. A/B тесты. | **Принятие решений в бизнесе на основе данных**   
-<ins>Используемые библиотеки:</ins> pandas, numpy, math, scipy, matplotlib, seaborn    
-<ins>Также:</ins> анализ A/B тестов, проверка гипотез    
-
-<b>Задача:</b> Провела приоритезацию гипотез, анализировала результаты A/B-теста.  
-
-### 8. Analytics in the online store. A/B tests. | **Data driven business decisions**   
-<ins>Libraries:</ins> pandas, numpy, math, scipy, matplotlib, seaborn   
-<ins>Also:</ins> A/B test analysis, hypothesis testing   
-
-<b>Problem:</b> Conducted prioritization of hypotheses, analyzed the results of the A/B test.   
-
----
-
-### 9. Рынок заведений общественного питания Москвы | **Как рассказать историю с помощью данных**  
-<ins>Используемые библиотеки:</ins> pandas, numpy, requests, matplotlib, seaborn, functools  
-<ins>Также:</ins> построение визуализаций      
-
-<b>Задача:</b> Исследовала вопрос - будет ли успешным и популярным на долгое время кафе, в котором гостей обслуживают роботы-официанты. Исследовала рынок заведений в Москве, плотность их распределения, количество посадочных мест, площадь. По результатам анализа подготовлена презентация для инвесторов с рекомендациями. Также при анализе были получены районы расположения кафе-конкурентов.  
-
-### 9. Catering establishments market in Moscow | **How to tell a story with data**  
-<ins>Libraries:</ins> pandas, numpy, requests, matplotlib, seaborn, functools   
-<ins>Also:</ins> visualizations  
-
-<b>Problem:</b> Investigated the question - will a cafe, where guests are served by robots-waiters, be successful and popular for a long time. I studied the market of institutions in Moscow, the density of their distribution, the number of seats, and the area. Based on the results of the analysis, a presentation was prepared for investors with recommendations. Also during the analysis, the areas of location of the cafe-competitors were obtained.   
-
----
-
-### 10. Анализ поведения пользователей мобильного приложения. Анализ ААВ-теста | **Сборный проект 2**    
-<ins>Используемые библиотеки:</ins> pandas, numpy, math, scipy, matplotlib, seaborn  
-<ins>Также:</ins> Анализ А/А/В-теста, анализ воронки продаж   
-
-<b>Задача:</b> Исследовала поведение пользователей мобильного приложения по продаже питания. Изучила воронку продаж: как пользователи доходят до покупки, сколько пользователей доходит до покупки, а сколько — «застревает» на предыдущих шагах, на каких именно. Проанализировала результаты A/A/B-эксперимента.  Пользователей разбили на 3 группы: 2 контрольные со старыми шрифтами и одну экспериментальную — с новыми.  Дизайнеры захотели поменять шрифты во всём приложении и необходимо было по результатам  A/A/B-эксперимента сделать выводы и принять решение, дать рекомендации.  
-
-### 10. Analysis of mobile application user behavior. AAB test analysis | **Collecting project 2**    
-<ins>Libraries:</ins> pandas, numpy, math, scipy, matplotlib, seaborn  
-<ins>Also:</ins> A/A/B test analysis, sales funnel analysis   
-
-<b>Problem:</b> Researched the behavior of users of a mobile application for the sale of food. I studied the sales funnel: how users reach the purchase, how many users reach the purchase, and how many get stuck on the previous steps, on which ones. Analyzed the results of the A/A/B experiment. Users were divided into 3 groups: 2 control groups with old fonts and one experimental group with new ones. The designers wanted to change the fonts throughout the application and it was necessary to draw conclusions based on the results of the A/A/B experiment and make a decision, give recommendations.    
-
----
-
-### 11. Анализ взаимодействия пользователей с карточками Яндекс.Дзен | **Автоматизация (дашборды)**    
-<ins>Также:</ins> Использование скриптов, Tableau   
-
-<b>Задача:</b> Провела анализ пользовательского взаимодействия с карточками статей на Яндекс.Дзен, подготовила презентацию и дашборд в Tableau.  
-
-### 11. Analysis of user interaction with Yandex.Zen cards | **Automatisation (dashboards)**    
-<ins>Also:</ins> Scripting, Tableau  
-
-<b>Problem:</b> Analyzed user interaction with article cards on Yandex.Zen, prepared a presentation and a dashboard in Tableau.  
-
----    
- 
-### 12. Прогноз оттока пользователей в фитнес-центрах | **Прогнозы и предсказания**  
-<ins>Используемые библиотеки:</ins> pandas, numpy, matplotlib, seaborn, sklearn, scipy, catboost  
-<ins>Также:</ins> EDA, LogisticRegression, RandomForestClassifier, RandomizedSearchCV, CatBoostClassifier, кластеризация
- 
-<b>Задача:</b> Спрогнозировала вероятность оттока клиентов (на уровне следующего месяца) для сети фитнес-центров; сформировала типичные портреты клиентов, проанализировала основные признаки, наиболее сильно влияющие на отток, сформулировала основные выводы и разработала рекомендации по повышению качества работы с клиентами.    
-
-### 12. Predict of user churn in fitness centers | **Forecasts and Predictions**  
-<ins>Libraries:</ins> pandas, numpy, matplotlib, seaborn, sklearn, scipy, catboost   
-<ins>Also:</ins> EDA, LogisticRegression, RandomForestClassifier, RandomizedSearchCV, CatBoostClassifier, clustering  
-
-<b>Problem:</b> Predicted the probability of customer churn (at the level of the next month) for a network of fitness centers; formed typical client portraits, analyzed the main features that most strongly affect the outflow, formulated the main conclusions and developed recommendations for improving the quality of work with clients.      
-
+| Проект (курс) | Описание (сфера деятельности) | Библиотеки и инструменты |
+| :---------------------- | :---------------------- | :---------------------- |
+| 01	[Исследование надёжности заёмщиков — анализ банковских данных](https://github.com/Oleg-Volontsevich/Yandex_Practicum_Projects/blob/master/project01_reliability_of_borrowers_analyzing/yp_project_01.ipynb)  (Предобработка данных)	 |	На основе статистики о платёжеспособности клиентов исследовать влияет ли семейное положение и количество детей клиента на факт возврата кредита в срок	(банковский сектор/ФинТех, страхование, консалтинг/аудит).	 |	Matplotlib, Pandas, PyMystem3, лемматизация, предобработка данных	|
+| 02	[Продажа квартир в СПб — анализ рынка недвижимости](https://github.com/Oleg-Volontsevich/Yandex_Practicum_Projects/blob/master/project02_apartments_for_sale_analyzing/yp_project_02.ipynb)  (Исследовательский анализ данных)	 |	Используя данные сервиса Яндекс.Недвижимость, определить рыночную стоимость объектов недвижимости и типичные параметры квартир	 (Интернет-сервисы, консалтинг/аудит).	 |	Matplotlib, Pandas, визуализация данных, исследовательский анализ данных, предобработка данных	|
+| 03	[Определение выгодного тарифа для телеком компании](https://github.com/Oleg-Volontsevich/Yandex_Practicum_Projects/blob/master/project03_tarif_analyzing/yp_project_03.ipynb)  (Статистический анализ данных)	 |	На основе данных клиентов оператора сотовой связи проанализировать поведение клиентов и поиск оптимального тарифа	(телеком, маркетинг/SEO, консалтинг/аудит, ритейл/E-commerce).	|	Matplotlib, Pandas, SciPy, Seaborn, math, numpy, описательная статистика, проверка статистических гипотез	|
+| 04	[**Изучение закономерностей, определяющих успешность игр**](https://github.com/Oleg-Volontsevich/Yandex_Practicum_Projects/blob/master/project04_successful_games_analysis/yp_project_04.ipynb)  (Сборный проект - 1)	|	Используя исторические данные о продажах компьютерных игр, оценки пользователей и экспертов, жанры и платформы, выявить закономерности, определяющие успешность игры (маркетинг/SEO, Gamedev, ритейл/E-commerce, консалтинг/аудит). |	Matplotlib, Pandas, SciPy, Seaborn, numpy, визуализация данных, исследовательский анализ данных, описательная статистика, предобработка данных, проверка статистических гипотез	|
+| 05	[Рекомендация тарифа](https://github.com/Oleg-Volontsevich/Yandex_Practicum_Projects/blob/master/project05_tariff_choosing_model/yp_project_05.ipynb) (Введение в машинное обучение)	 |	Построить предсказательную модель для определения подходящего тарифа по поведению клиента.	(телеком, консалтинг/аудит, Интернет-сервисы).	|	Pandas, numpy, sklearn, машинное обучение	|
+| 06	[Отток клиентов банка](https://github.com/Oleg-Volontsevich/Yandex_Practicum_Projects/blob/master/project06_exited_customers_model/yp_project_06.ipynb) (Обучение с учителем)	 |	Анализ оттока клиентов из банка для выбор стратегии: удержание старых клиентов или привлечение новых (банковский сектор/ФинТех, интернет-сервисы, страхование, ритейл/E-commerce, консалтинг/аудит).	|	Matplotlib, Pandas, Seaborn, numpy, sklearn, машинное обучение	|
+| 07	[**Выбор региона для новых нефтяных месторождений**](https://github.com/Oleg-Volontsevich/Yandex_Practicum_Projects/blob/master/project07_losses_risks_in_oil_model/yp_project_07.ipynb) (Машинное обучение в бизнесе)	 |	Решить в каком регионе добывать нефть. Построить модель машинного обучения, которая поможет определить регион, где добыча принесет наибольшую прибыль с наименьшим риском убытков	(отраслевые компании, индустрия, промышленность, консалтинг/аудит).	|	Bootstrap, Matplotlib, Pandas, numpy, sklearn, машинное обучение	 |
+| 08	[**Предсказание коэффициента восстановления золота**](https://github.com/Oleg-Volontsevich/Yandex_Practicum_Projects/blob/master/project08_gold_recovery_coefficient_model/yp_project_08.ipynb) (Сборный проект - 2)	|	Для металлообрабатывающего предприятия необходимо разработать модель, предсказывающую коэффициент восстановления золота из золотосодержащей руды.	 (отраслевые компании, индустрия, промышленность, консалтинг/аудит).	 |	Matplotlib, Pandas, numpy, sklearn, машинное обучение	|
+| 09	[Разработка алгоритма для защиты данных](https://github.com/Oleg-Volontsevich/Yandex_Practicum_Projects/blob/master/project09_personal_data_protecting/yp_project_09.ipynb) (Линейная алгебра)	 |	Методом преобразования данных защитить личную информацию клиентов страховой компании 	(информационная безопасность, страхование, консалтинг/аудит).	|	Pandas, numpy, sklearn, линейная алгебра |
+| 10	[Предсказание цены автомобиля](https://github.com/Oleg-Volontsevich/Yandex_Practicum_Projects/blob/master/project10_cars_price_model/yp_project_10.ipynb) (Численные методы)	|	Обучить модель для определения рыночной стоимости автомобиля	(страховая сфера, консалтинг/аудит, интернет-сервисы, ритейл/E-commerce).	 |	CatBoost, LightGBM, Pandas, numpy, sklearn, машинное обучение	|
+| 11	[Прогнозирование заказов такси](https://github.com/Oleg-Volontsevich/Yandex_Practicum_Projects/blob/master/project11_taxi_order_predict_model/yp_project_11.ipynb) (Временные ряды)	|	Обучить модель для предсказания количества заказов такси на следующий час (страхование,  туризм, интернет-сервисы, ритейл/E-commerce, консалтинг аудит).	|	CatBoost, LightGBM, Matplotlib, Pandas, StatsModels, numpy, sklearn, машинное обучение	|
+| 12	[Классификация комментариев](https://github.com/Oleg-Volontsevich/Yandex_Practicum_Projects/blob/master/project12_toxic_comments_text_model/yp_project_12.ipynb) (Машинное обучение для текстов)	|	Ускорить модерацию комментариев в сообществе, автоматизировав оценку их токсичности. Обучить модель классифицировать комментарии на позитивные и негативные (маркетинг/SEO, ритейл/E-commerce, консалтинг/аудит, интернет-сервисы).	|	CatBoost, LightGBM, NLTK, Pandas, numpy, sklearn, машинное обучение	 |
+| 13	[Исследование данных авиакомпании](https://github.com/Oleg-Volontsevich/Yandex_Practicum_Projects/tree/master/project13_sql_and_airline_analyzing) (Извлечение данных)	|	Произвести выгрузки и подготовку данных авиакомпаний с помощью SQL, проверить гипотезу о повышении спроса на авиабилеты во время фестивалей	(туризм, интернет-сервисы, ритейл/E-commerce, консалтинг/аудит).	|	Matplotlib, Pandas, Python, SQL, SciPy, проверка статистических гипотез	 |
+| 14	[Определение возраста по фото](https://github.com/Oleg-Volontsevich/Yandex_Practicum_Projects/blob/master/project14_age_by_photo_cv_model/yp_project_14.ipynb) (Компьютерное зрение)	|	Построить модель, которая по фотографии определит приблизительный возраст человека. Есть набор фотографий людей с указанием возраста (информационная безопасность, интернет-сервисы, ритейл/E-commerce, b2b).	|	Matplotlib, Pandas, Seaborn, keras, компьютерное зрение, машинное обучение	|
+| 15	[**Предсказание температуры стали**](https://github.com/Oleg-Volontsevich/Yandex_Practicum_Projects/blob/master/project15_metal_industry_temp_pred_model/yp_final_project_15.ipynb) (Финальный проект)	|	Металлургическому предприятию необходима модель, предсказывающая температуру стали по данным, полученным на разных этапах обработки (отраслевые компании, индустрия, промышленность, консалтинг/аудит).	|	Matplotlib, Pandas, CatBoost, LightGBM, sklearn, машинное обучение	|
