@@ -1,12 +1,7 @@
 ## Аналитик данных — Яндекс.Практикум   
 ## Data analyst - Practicum by Yandex  
 _________________
-
-### Проекты выполнены в рамках обучения на курсе Яндекс.Практикум    
-
-ссылка на курс (course): [https://praktikum.yandex.ru/data-analyst/](https://praktikum.yandex.ru/data-analyst/)  
-
----  
+  
 
 ## Описание проектов / Description of projects    
 
